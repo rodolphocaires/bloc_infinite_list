@@ -6,5 +6,5 @@ import 'package:flutter_infinite_list/simple_bloc_observer.dart';
 
 void main() {
   Bloc.observer = const SimpleBlocObserver();
-  runApp(const App());
+  runApp(App());
 }
